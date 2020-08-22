@@ -1,0 +1,487 @@
+header {
+    width: 100%;
+    background-color: #282828;
+    color: white;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    overflow:hidden;
+}
+.header-in {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px 0;
+    height: 70px;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.site-description {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.main1 {
+    background-image: url(img/background1.jpg);
+    background-position: bottom;
+    display: table;
+    width: 100%;
+    background-size: cover;
+}
+
+.main1contents {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.text1-1 img {
+    width: 100%;
+    max-width: 700px;
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.text1-2 img {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.text1-3 {
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.text1-3 h1 {
+    font-size: 13px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.main2 {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #282828;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.img2-1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.img2-1 img{
+    width: 80%;
+}
+
+.text2-1box {
+    text-align: left;
+    color: #fff;
+}
+
+.text2-1 {
+    margin-bottom: 40px;
+}
+
+.main3 {
+    font-size: 16px;
+    background-color: #0070D9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.text3-1 {
+    width: 50%;
+    max-width: 624px;
+}
+
+.text3-2 {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 100px;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .main3 {
+        display: none;
+    }
+
+}
+
+.main4 {
+    padding: 50px 0;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    background-image: url(img/main4-background.jpg);
+    background-position: bottom;
+    display: table;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+}
+.main4box {
+    text-align: center;
+}
+
+.icon4-1 {
+    color: #0070D9;
+    border-color: #0070D9;
+    font-size: 45px;
+    display: flex-inline;
+    position: relative;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid 1px;
+    margin-bottom: 20px;
+}
+
+.text4-1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text4-2 {
+    text-align: left;
+    font-weight: 300;
+}
+
+.main5 {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #282828;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.text5-1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.img5-1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cdjacket {
+    width: 90%;
+}
+
+.text5-2 {
+    margin-bottom: 30px;
+}
+.text5-2-1 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.text5-2-2 {
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.text5-3 {
+    margin-bottom: 10px;
+}
+
+.text5-3-1 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.text5-3-2 {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+audio {
+    width: 90%;
+}
+
+.main6 {
+    font-size: 16px;
+    background-color: #0070D9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    color: #fff;
+    width: 100%;
+}
+
+.text6-1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text6-2-1 {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.text6-2-2 {
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.playbtn {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.btn6-1{
+    display:block;
+    width: 100%;
+    height:70px;
+    line-height: 70px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f39800; /*ボタン色*/
+    border-radius: 5px; /*角丸*/
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.btn6-1:hover{
+    background-color: #f9c500; /*ボタン色*/
+}
+
+.playbtn a {
+    text-decoration: none;
+}
+
+.main7 {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #282828;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    text-align: center;
+}
+
+.text7-1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.img7-1-1 {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.text7-2 {
+    text-align: left;
+}
+
+.text7-2-1 {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.text7-2-2 {
+    font-weight: 100;
+}
+
+.text7-2-3 {
+    font-weight: 300;
+}
+
+.main8 {
+    background-color: #fff;
+    color: #282828;
+    margin: 50px 0;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.text8-1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cp_qa *, .cp_qa *:after, .cp_qa *:before {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.cp_qa .cp_actab {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 1em 0;
+	color: #1b2538;
+}
+.cp_qa .cp_actab input {
+	position: absolute;
+	opacity: 0;
+}
+/* 質問 */
+.cp_qa .cp_actab label {
+	font-weight: bold;
+	line-height: 1.6em;
+	position: relative;
+	display: block;
+	margin: 0 0 0 0;
+	padding: 1em 2em 1em 2.5em;
+	cursor: pointer;
+	text-indent: 1em;
+	border-radius: 0.5em;
+	background: rgba(27,37,56,0.1);
+}
+.cp_qa .cp_actab label::before {
+	font-size: 1.5em;
+	margin-left: -2em;
+	padding-right: 0.5em;
+	content: 'Q';
+}
+.cp_qa .cp_actab label:hover {
+	transition: all 0.3s;
+	color: #00838f;
+}
+/* --質問の＋アイコン */
+.cp_qa .cp_actab label::after {
+	font-size: 1.7em;
+	font-weight: bold;
+	line-height: 2em;
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: '+';
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	-webkit-transition: transform 0.4s;
+	        transition: transform 0.4s;
+}
+/* 答え */
+.cp_qa .cp_actab .cp_actab-content {
+	position: relative;
+	overflow: hidden;
+	max-height: 0;
+	padding: 0 0 0 2.5em;
+	-webkit-transition: max-height 0.2s;
+	        transition: max-height 0.2s;
+	border-radius: 0 0 0.5em 0.5em;
+}
+.cp_qa .cp_actab .cp_actab-content::before {
+	font-size: 1.5em;
+	position: absolute;
+	margin: 0.4em 0 0 -1em;
+	padding: 0;
+	content: 'A';
+}
+.cp_qa .cp_actab .cp_actab-content p {
+	margin: 1em 1em 1em 0;
+}
+/* 質問を開いた時の仕様 */
+/* --答えの高さ */
+.cp_qa .cp_actab input:checked ~ .cp_actab-content {
+	max-height: 40em;
+	border: 10px solid rgba(27,37,56,0.1);
+}
+/* 質問をクリックした時のアイコンの動き */
+.cp_qa .cp_actab input:checked ~ label {
+	color: #00838f;
+	border-radius: 0.5em 0.5em 0 0;
+}
+/* 質問をクリックした時の+の動き */
+.cp_qa .cp_actab input[type=checkbox]:checked + label::after {
+	-webkit-transform: rotateZ(45deg);
+	transform: rotateZ(45deg);
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.main9 {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #282828;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    text-align: center;
+}
+
+.text9-1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.btn9-1{
+    display:block;
+    width: 70%;
+    height:70px;
+    line-height: 70px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f39800; /*ボタン色*/
+    border-radius: 5px; /*角丸*/
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.btn9-1:hover{
+    background-color: #f9c500; /*ボタン色*/
+}
+
+.text9-2 a {
+    text-decoration: none;
+}
+
+footer {
+    height: 80px;
+    background-color: #282828;
+    text-align: center;
+}
+
+footer p{
+    color: #fff;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.twlink {
+    text-decoration: none;
+}
